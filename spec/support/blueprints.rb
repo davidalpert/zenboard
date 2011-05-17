@@ -23,6 +23,7 @@ User.blueprint do
   email     'minimal@example.com'
   password  'test1234'
   password_confirmation 'test1234'
+  confirmed_at { Sham.date }
 end
 
 Phase.blueprint(:archive) do

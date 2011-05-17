@@ -9,6 +9,7 @@ Feature: Get the details of a project
 	  When  I go to the project "4444" detail page
 	  Then  I should see "You need to sign in"
 
+@wip
   Scenario: See project configuration detail
     Given I'm logged in
     And   I have the following project configurations:
